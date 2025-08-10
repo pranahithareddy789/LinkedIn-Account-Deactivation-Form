@@ -1,0 +1,47 @@
+<html>
+<head>
+    <title>LinkedIn Deactivation Form</title>
+    <style>
+        input, select, textarea {
+            width: 100%;
+            padding: 8px;
+            margin-top: 5px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+       h2 {
+            text-align: center;
+            color: #ccd4d8;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #072235;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body bgcolor="lavender">
+    <center>
+        <h2>Linkedin Account Deactivation</h2>
+        <form action="" style="border: 2px solid black; padding: 20px; width: 300px; background-color: rgb(233, 228, 228); border-radius: 10px;">
+            <label for="Full Name">Full Name</label>
+              <input type="text" id="Full Name" name="Full Name"><br>
+            <label for="email">Email Address</label>
+              <input type="email" id="email" name="email"><br>
+            <label for="reason">Reason for Deactivation</label>
+            <select id="reason" name="reason">
+              <option value="">-- Select a reason --</option>
+              <option value="not-useful">Not useful</option>
+              <option value="privacy">Privacy concerns</option>
+              <option value="too-many-emails">Too many emails</option>
+              <option value="job-found">Found a job</option>
+              <option value="other">Other</option>
+            </select>
+            Comments:<br>
+            <textarea name="comments" rows="4" cols="30"></textarea><br>
+            <input type="checkbox" name="confirm"> Confirm deactivation<br>
+            <input type="submit" value="Deactivate Account">
+        </form>
+    </center>
+</body>
+</html>
